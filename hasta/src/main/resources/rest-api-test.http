@@ -1,0 +1,53 @@
+### Get All Hasta
+GET http://localhost:8080/api/hasta
+
+### Get Hasta By Id
+GET http://localhost:8080/api/hasta/1
+
+### Create Hasta
+POST http://localhost:8080/api/hasta
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "Ahmet",
+  "lastname": "Yılmaz",
+  "birth": "2020-09-19"
+}
+
+### Create Hasta
+POST http://localhost:8080/api/hasta
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "Selin",
+  "lastname": "Kaya",
+  "birth": "2007-09-17"
+}
+
+### Update Hasta
+PUT http://localhost:8080/api/hasta
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Ahmet",
+  "lastname": "Yılmaz",
+  "birth": "1996-09-19"
+}
+
+
+### Delete Doktor
+DELETE http://localhost:8080/api/hasta/2
+
+
+
+
+
+
+
+
+
+
+
